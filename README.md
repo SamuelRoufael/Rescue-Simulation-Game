@@ -58,31 +58,31 @@ There are different types of disasters that can occur throughout the game. Some 
 buildings while others directly affect the citizens in the map. Buildings can 1) catch fire, 2)
 collapse or 3) have a gas leak. Citizens can 4) get infected or 5) injured.
 
-#### Fire Disasters:
+#### - Fire Disasters:
 Fire disasters can affect buildings. It will increase the fire damage of the affected buildings. If the
 fire damage of a building reaches 100, it will cause said building to collapse. Moreover, if a fire
 disaster befalls a building that has a gas leak, the building will collapse if the gas level is low. If
 the gas level is high when the fire disaster hits however, the building will be destroyed and all
 the occupants will die immediately.
 
-#### Collapse Disasters:
+#### - Collapse Disasters:
 Collapse disasters will automatically trigger once the fire damage of any building reaches or
 surpasses 100. Once initiated, it will keep on increasing the foundation damage of the building.
 If the foundation damage reaches 100, the building will be destroyed and all the occupants will
 die immediately !! The player does not have any way of stopping the increase of the foundation
 damage of a collapsed building.
 
-#### Gas Leak Disasters:
+#### - Gas Leak Disasters:
 If a building got some gas leak, it will increase the gas level inside this building which is very
 dangerous for the occupants. If the level is not dealt with before it reaches 100, all the
 occupants will suffocate and die horribly !! If a gas leak disaster hits a building that is currently
 affected by a fire disaster, the building will collapse.
 
-#### Infection Disasters:
+#### - Infection Disasters:
 Citizens can get infected. This will cause their toxicity level to increase which if not controlled in
 the right time and is left to reach 100, will cause the citizen to die immediately !!
 
-#### Injury Disasters:
+#### - Injury Disasters:
 Citizens can also get injured. If so, this will cause them to lose some blood. Like the infection
 disasters, if it is not dealt with before the amount of blood loss reaches 100, the citizen will
 awfully die !!
@@ -96,7 +96,7 @@ At any given cycle in the game an emergency unit can have one of the following s
 - responding: assigned to a specific disaster and enroute to respond to it.
 - Treating: currently treating/handling a specific citizen/building.
 
-#### Police Units
+#### Police Units :
 Police units are responsible for maintaining public order and safety.
 There is only one type of police units, which is the Evacuator. Evacuators are responsible for
 rescuing citizens from collapsed buildings by transporting them from a collapsing building to a
@@ -109,13 +109,13 @@ There are two types of medical units: the ambulance and the disease control unit
 Ambulances are responsible for rescuing and healing citizens with injury disasters. The disease
 control units are used to rescue and heal citizens with infection disasters.
 
-#### Fire Units
+#### Fire Units :
 Fire Units are responsible for dealing with fire and gas disasters.
 There are two types of fire units: the fire truck and the gas control unit.
 The fire trucks are responsible for putting out fires in buildings suffering from fire disasters. The
 gas control unit handles gas leaks in buildings.
 
-### Control Panels
+### Control Panels :
 The game consists of various panels:
 1. The rescue panel which contains the map showing the status of the world and the
 buildings and citizens in it. Each cell of the map is either empty or contains a building or
